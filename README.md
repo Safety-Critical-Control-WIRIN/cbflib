@@ -5,5 +5,5 @@ P. Thontepu et al., Control Barrier Functions in UGVs for Kinematic Obstacle Avo
 
 This library allows for an easy interface for creating collision cones out of 3D bounding boxes and when given an interface to the state feedback from the vehicle, handles all of the computation for the collision cone CBF (C3BF) allowing for moving obstacle avoidance with theoretical guarantees on safety. The output of the C3BF processing functions is a continuous, real-time, and optimal modification of the reference control input which ensures collision avoidance. 
 ***
-Therefore, the library provides a minimally invasive safety filter for the reference control inputs, which can, in theory, be generated through any algortihm. Using C3BFs adds a layer of safety and continuity to the control input, since the resulting final control input will be Lipshitz Continuous.
+Therefore, the library provides a minimally invasive safety filter for the reference control inputs, which can, in theory, be generated through any algorithm. Using C3BFs adds a layer of safety and continuity to the control input, since the resulting final control input will be Lipshitz Continuous.
 ***
